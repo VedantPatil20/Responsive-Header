@@ -8,19 +8,15 @@
 }
 
 :root {
-    --home-bg-color: #181818;
+    --bg-color: #181818;
     --text-color: #fff;
     --main-color: #29fd53;
-    --bg-color: #181818;
-    
-}
-
-html {
-    scroll-behavior: smooth;
 }
 
 body {
+    min-height: 100vh;
     background: var(--bg-color);
+    color: var(--text-color);
 }
 
 /* Header */
